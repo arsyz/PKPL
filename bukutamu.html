@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body { 
+			font-family:tahoma; 
+			font-size:12px;
+			background: aqua;
+		}	
+		#container { 
+			width:450px; 
+			padding:20px 40px; 
+			margin:50px auto; 
+			border:0px solid #555; 
+			box-shadow:0px 0px 2px #555;
+			background: white; 
+		}
+		h1{
+			color: purple;
+		}
+		input[type="text"] { 
+			width:200px; 
+		}
+		input[type="text"], textarea { 
+			padding:5px; 
+			margin:2px 0px; 
+			border: 1px solid #777; 
+		}
+		input[type="submit"], input[type="reset"] { 
+			padding: 5px 20px; 
+			margin:2px 0px; 
+			font-weight:bold; 
+			cursor:pointer;
+			background: purple;
+			border: none;
+			color: white; 
+		}
+		.tamu{
+			margin-left: 83%;
+		}
+		.home{
+		    position: absolute;
+		    top: 10%;
+		    right: 32%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h1>Buku Tamu</h1>
+		<p>Silahkan isi buku tamu di bawah ini untuk meninggalkan pesan Anda!</p>
+		<form name="form1" action="proses.php" method="post">
+			<p><b>Nama Lengkap :</b><br><input type="text" name="nama" id="nama" required /></p>
+			<p><b>Email :</b><br><input type="text" name="email" id="email" required /></p>
+			<p><b>Alamat :</b><br><input type="text" name="alamat" id="alamat" required /></p>
+			<p><b>Komentar/Pesan :</b><br><textarea name="pesan" rows="5" cols="50" id="pesan" required></textarea></p>
+			<p><input type="submit" name="go" value="Kirim" /> <input type="reset" name="del" value="Hapus" /></p>
+		</form>
+		<a href="lihat.php" class="tamu">Daftar Tamu</a>
+	</div>
+	<div class="home">
+		<script type="text/javascript">
+			alert ("Terimakasihh Atas Partisipasinyaa :)")
+		</script>
+        <a href="first.html"><img src="home.png"></a>
+    </div> 
+</body>
+</html>

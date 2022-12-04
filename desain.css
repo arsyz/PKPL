@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+    height: 100%;
+	font-family: helvetica;
+	text-align: center;
+
+}
+.all{
+	width: 100%;
+    height: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+header{
+	position: relative;
+	top: 0%;
+	height: 50px;
+	border-bottom: 3px solid #907fa4;
+	text-align: center;
+	color: #907fa4;
+}
+.form{
+	margin: 0 auto;
+	margin-top: 3%;
+	width: 50%;
+	height: 30%;
+	border: 1px solid #907fa4;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.teks{
+	box-sizing: border-box;
+	padding: 14px 22px;
+	width: 100%;
+	background-color: #907fa4;
+	color: white;
+	margin-top: 0px;
+
+}
+.teks:hover{
+	background-color: #511281;
+}
+.innum{
+	font-size: 18px;
+    width: 97%;
+    padding: 14px 22px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+h4{
+	box-sizing: border-box;
+	font-size: 23px;
+    border: none;
+    width: 97%;
+    padding: 9px 18px;
+    margin: 6px 0;
+    color: #907fa4;
+}
+.innum1{
+	width: 95%;
+	background-color: #907fa4;
+	margin: 3px 0;
+	color: white;
+	font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 6px 14px;
+    cursor:pointer;
+}
+.innum1:hover{
+	background-color: #511281;
+}
+.home{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+}
+.halselanjutnya{
+    position: absolute;
+    top: 25%;
+    right: 1%;    
+} 
+footer{
+	position: fixed;
+	bottom: 0%;
+	height: 50px;
+	text-align: center;
+    padding: 1%;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #907fa4;
+    color: white;
+}
+footer:hover{
+	background-color: #511281;
+}

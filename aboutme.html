@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: "Raleway Thin", sans-serif;
+		}
+		header{
+			background: transparent;
+			height: 80px;
+			width: 100%;
+		}
+		label.tittle{
+			color: gold;
+			text-align: left;
+			font-size: 28px;
+			line-height: 70px;
+			padding: 0 40px;
+			font-weight: 300;
+		}
+		header ul{
+			float: right;
+			margin-right: 20px;
+		}
+		header ul li{
+			display: inline-block;
+			line-height: 70px;
+			margin: 0 10px;
+		}
+		header ul li a{
+			color: white;
+			font-size: 18px;
+			padding: 7px 13px;
+			border-radius: 3px;
+		}
+		header ul li a:hover {
+			background-color: rgb(185, 185, 185, 0.2);
+			color: gold;
+		}
+		body{
+			background-image: url(bg3.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		.circle-avatar {
+		 	height:150px;
+		 	width:100px;
+			margin:30px auto;
+			background:url('me1.jpg')center ;
+			border: ;
+			background-size : cover;
+			background-repeat:no-repeat;
+			background-attachment:local;
+		 	border-radius: 20%;
+			/* px semakin besar makan semakin melengkung */
+		}
+		.profil{
+			text-align: center;
+			color: white;
+		}
+		.profil a{
+			text-decoration: none;
+			color: gold;
+		}
+		.sosmed{
+			margin: 30px;
+			display:flex;
+			flex-direction:row;		
+			align-items:center;
+			justify-content:space-evenly;
+		}
+		footer{
+			position: fixed;
+			bottom: 0%;
+			height: 50px;
+			text-align: center;
+		    padding: 1%;
+		    box-sizing: border-box;
+		    width: 100%;
+		    background-color: rgb(185, 185, 185, 0.1);
+		    color: white;
+		}
+		footer:hover{
+			color: gold;
+		}
+	</style>
+</head>
+<body>
+	<header>
+			<label class="tittle">ABOUT ME QArsZ</label>
+			<ul>
+				<li><a href="first.html">HOME</a></li>
+				<li><a href="">BUKU TAMU</a></li>
+			</ul>
+	</header>
+	<main>
+	<div class="circle-avatar"></div>
+		<div class="profil"><br />
+		<b>
+		<p>Haii :)<br /> Nama saya Qori Arsy Zahaadah, lahir di Sleman kota Jogja Istimewa, tanggal 13 September 2000.
+		Saat ini saya berstatus mahasiswa semester 2</p> Teknik Informatika <a href="https://uad.ac.id/id/">UNIVERSITAS AHMAD DAHLAN...</a>
+		<p>Saya suka mencoba hal baru, itu seperti tantangan tersendiri dan itu seru, menyenangkan, <br />tidak salahnya dicoba selama itu hal baik</p>
+		</b>
+	</div>
+	<div class="sosmed">
+		<div>
+			<a id="profile-link" href="https://www.instagram.com/qoriarz13/" target="_blank"><img src="ig.png" width="50px"></a>
+		</div>
+		<div>
+			<a href="https://api.whatsapp.com/send?phone=6281328332941=Assalamualaikum" target="_blank"><img src="wa1.png" width="50px"></a>
+		</div>
+		<div>
+			<a href="mailto:qori2000018355@webmail.uad.ac.id" target="_blank"><img src="gmail.png" width="70px"></a>
+		</div>
+		<div>
+			<a href="https://gitlab.com/QArsZ" target="_blank"><img src="gitlab.png" width="50px"></a>
+		</div>
+		
+	</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; Qori Arsy Zahaadah | 2000018355</p>
+	</footer>
+</body>
+</html>
